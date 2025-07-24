@@ -1,15 +1,10 @@
-'use client';
-
 import Button from "@/components/common/Button";
 import { useRouter } from "next/navigation";
 import { PageRouteProps } from "@/interfaces"; // Added import
 import Header from "@/components/layouts/Header";
 import Footer from "@/components/layouts/Footer";
 
-// No longer need to define PageRouteProps here
-// interface PageRouteProps {
-//   pageRoute: string
-// }
+
 
 export default function Home() {
   const router = useRouter();
